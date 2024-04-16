@@ -3,6 +3,9 @@ Pràctica 1 - GiVD 2023-24
 
 En aquest fitxer cal que feu l'informe de la pràctica 1.
 
+## Execution
+To execute the project, CMake and QT5 must be installed on the computer. We have used VS Code to build and run the project.
+
 ## Equip:
 **B02**
 * Eshaan Mittal
