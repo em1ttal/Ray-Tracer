@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/cube.obj</file>
+        <file>resources/teapot2.obj</file>
+        <file>resources/mario.obj</file>
+        <file>resources/luigi.obj</file>
+        <file>resources/duotetrahedron.obj</file>
+    </qresource>
+</RCC>

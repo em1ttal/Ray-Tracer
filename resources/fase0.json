@@ -1,0 +1,81 @@
+{
+    "scene": "Circular Spheres",
+    "typeScene": "VIRTUAL",
+    "objects": [
+        {
+            "name": "Sphere1",
+            "type": "sphere",
+            "center": [0.0, 0.0, 0.0],
+            "radius": 0.5,
+            "material": {
+                "type": "lambertian",
+                "ka": [0.2, 0.2, 0.2],
+                "kd": [0.5, 0.5, 0.5],
+                "ks": [1.0, 1.0, 1.0],
+                "shininess": 10.0,
+                "kt": [0.0, 0.0, 0.0],
+                "nut": 0.0
+                }
+        },
+        {
+            "name": "Sphere2",
+            "type": "sphere",
+            "center": [1.0, 0.0, 0.0],
+            "radius": 0.5,
+            "material": {
+                "type": "lambertian",
+                "ka": [0.2, 0.2, 0.2],
+                "kd": [0.5, 0.5, 0.5],
+                "ks": [1.0, 1.0, 1.0],
+                "shininess": 10.0,
+                "kt": [0.0, 0.0, 0.0],
+                "nut": 0.0
+                }
+        },
+        {
+            "name": "Sphere3",
+            "type": "sphere",
+            "center": [0.0, 1.0, 0.0],
+            "radius": 0.5,
+            "material": {
+                "type": "lambertian",
+                "ka": [0.2, 0.2, 0.2],
+                "kd": [0.5, 0.5, 0.5],
+                "ks": [1.0, 1.0, 1.0],
+                "shininess": 10.0,
+                "kt": [0.0, 0.0, 0.0],
+                "nut": 0.0
+                }
+        },
+        {
+            "name": "Sphere4",
+            "type": "sphere",
+            "center": [0.0, -1.0, 0.0],
+            "radius": 0.5,
+            "material": {
+                "type": "lambertian",
+                "ka": [0.2, 0.2, 0.2],
+                "kd": [0.5, 0.5, 0.5],
+                "ks": [1.0, 1.0, 1.0],
+                "shininess": 10.0,
+                "kt": [0.0, 0.0, 0.0],
+                "nut": 0.0
+                }
+        },
+        {
+            "name": "Sphere5",
+            "type": "sphere",
+            "center": [-1.0, 0.0, 0.0],
+            "radius": 0.5,
+            "material": {
+                "type": "lambertian",
+                "ka": [0.2, 0.2, 0.2],
+                "kd": [0.5, 0.5, 0.5],
+                "ks": [1.0, 1.0, 1.0],
+                "shininess": 10.0,
+                "kt": [0.0, 0.0, 0.0],
+                "nut": 0.0
+                }
+        }
+    ]
+}

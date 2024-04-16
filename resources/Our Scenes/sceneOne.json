@@ -1,0 +1,51 @@
+{
+    "scene": "Our Scene 1",
+    "typeScene": "VIRTUAL",
+    "objects": [
+        {
+            "name": "Top Cube",
+            "type": "box",
+            "punt_min": [-10, -10, -15],
+            "punt_max": [10, 0, 5],
+            "material": {
+              "type": "metal",
+              "ka": [0.25, 0.25, 0.25],
+              "kd": [0.4, 0.4, 0.4],
+              "ks": [0.774597, 0.774597, 0.774597],
+              "shininess": 10.0,
+              "kt": [0, 0, 0],
+              "nut": 0.0
+            }
+        },
+        {
+          "name": "Duotetrahedron Mesh",
+          "type": "MESH",
+          "objFileName": "://resources/duotetrahedron.obj",
+          "material": {
+            "type": "transparent",
+            "ka": [0.4, 0.6, 0.8],
+            "kd": [0.4, 0.6, 0.8],
+            "ks": [1.0, 1.0, 1.0],
+            "shininess": 10.0,
+            "kt": [0.5, 0.5, 0.5],
+            "nut": 1.0,
+            "opacity": 1.0
+          }
+        },
+        {
+            "name": "Bottom Cube",
+            "type": "box",
+            "punt_min": [-10, 5, -15],
+            "punt_max": [10, 15, 5],
+            "material": {
+              "type": "metal",
+              "ka": [0.24725, 0.1995, 0.0745],
+              "kd": [0.75164, 0.60648, 0.22648],
+              "ks": [0.628281, 0.555802, 0.366065],
+              "shininess": 10.0,
+              "kt": [0, 0, 0],
+              "nut": 0.0
+            }
+        }
+    ]
+}
